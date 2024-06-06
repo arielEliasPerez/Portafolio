@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(35, 189, 73);
+    background-image: url('image/wallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    background: #333;
+    background: black;
     color: #fff;
     padding: 1rem;
 }
@@ -33,13 +35,16 @@ section {
     text-align: center;
 }
 
-h1{
-    color: black;
-}
+
 
 section#about {
     border-radius: 0px 0px 60px 60px;
-    background-color: rgba(28, 156, 60, 0.753);
+    box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.6), -1px 10px 12px 1px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #0f043f, #0a5480); /* Degradado de izquierda a derecha */
+    color: white;
+}
+h2{
+    color: white;
 }
 
 #projects{
@@ -50,12 +55,17 @@ section#about {
 }
 
 section#projects .project {
-    background: #e2e2e2e0;
+    background-color: rgba(30, 172, 2, 0.904);
+    border: 2px solid rgb(28, 136, 28);
+    color: rgb(2, 2, 2);
     width: 80%;
     margin: 1rem 0;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.6), -1px 10px 12px 1px rgba(0, 0, 0, 0.3);
+    
 }
+
 
 section#skills ul {
     display: flex;
@@ -66,28 +76,36 @@ section#skills ul {
 }
 
 section#skills ul li {
-    background: #e2e2e2;
+    background: #019463;
     margin: 0.5rem 0;
     padding: 0.5rem;
     border-radius: 5px;
     width: 60%;
     font-weight: bold;
+    box-shadow: -1px 10px 12px -1px rgba(0, 0, 0, 0.6), -1px 10px 12px 1px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif;
 }
 
 #contact{
     border-radius: 60px 60px 0px 0px;
-    background-color: rgba(28, 156, 60, 0.753);
+    color: white;
+    box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.6), 1px 10px 12px 1px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #0a5480, #0f043f); /* Degradado de izquierda a derecha */
 }
 
 section#contact a {
-    color: #333;
+    color: white;
     
     
 }
 
 footer {
-    background: #333;
+    background: #0a0101;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
