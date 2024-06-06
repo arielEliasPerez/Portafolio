@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lato:wght@400;700&display=swap');
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,17 +36,21 @@ section {
     text-align: center;
 }
 
-
+h1{
+    font-size: xx-large;
+}
 
 section#about {
     border-radius: 0px 0px 60px 60px;
     box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.6), -1px 10px 12px 1px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(to bottom, #0f043f, #0a5480); /* Degradado de izquierda a derecha */
+    background: linear-gradient(to bottom, #0f043f, #0a5480);
     color: white;
 }
 h2{
     color: white;
+    font-size: xx-large;
 }
+
 
 #projects{
     display: flex;
@@ -55,15 +60,28 @@ h2{
 }
 
 section#projects .project {
-    background-color: rgba(30, 172, 2, 0.904);
-    border: 2px solid rgb(28, 136, 28);
-    color: rgb(2, 2, 2);
+    background: linear-gradient(to right, #061450ce, #193f86ce);
+    
+    border: 1px outset rgb(5, 5, 5);
+    color: rgb(228, 226, 226);
     width: 80%;
     margin: 1rem 0;
     padding: 1rem;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 10px 10px 12px -1px rgba(0, 0, 0, 0.6), -1px 10px 12px 1px rgba(0, 0, 0, 0.3);
-    
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+section#projects .project h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section#projects a{
+    color: aqua;
+    font-size: large;
 }
 
 
@@ -76,14 +94,17 @@ section#skills ul {
 }
 
 section#skills ul li {
-    background: #019463;
+    background: #129fe0ea;
+    
     margin: 0.5rem 0;
     padding: 0.5rem;
     border-radius: 5px;
-    width: 60%;
+    width: 50%;
     font-weight: bold;
+    border: 2px inset rgb(28, 136, 28);
     box-shadow: -1px 10px 12px -1px rgba(0, 0, 0, 0.6), -1px 10px 12px 1px rgba(0, 0, 0, 0.3);
     font-family: 'Roboto', sans-serif;
+    
 }
 
 #contact{
@@ -104,8 +125,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-}
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
 }
